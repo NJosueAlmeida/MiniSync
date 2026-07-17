@@ -1,0 +1,13 @@
+# Ejecutables binarios
+miniSync
+scan
+
+# Carpetas de compilacion y temporales
+build/
+
+# Archivos de registro y bitacoras locales
+*.log
+
+# Archivos temporales o de respaldo del sistema operativo
+.DS_Store
+Thumbs.db
