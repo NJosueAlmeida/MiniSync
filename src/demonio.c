@@ -46,7 +46,7 @@ void desasociar_y_crear_demonio() {
         exit(EXIT_FAILURE);
     }
 
-    // 6. Cerrar todos los descriptores de archivos heredados y redirigir stdin, stdout y stderr a /dev/null
+    // Cerrar los descriptores de archivo estándar (stdin, stdout, stderr) para que el demonio no use la terminal
     close(STDIN_FILENO);
     close(STDOUT_FILENO);
     close(STDERR_FILENO);
